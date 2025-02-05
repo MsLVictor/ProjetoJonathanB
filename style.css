@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: #30503a;
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #495968;
+    justify-content: space-around;
+    padding: 10px 25px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.right a {
+    margin-left: 15px;
+}
+
+header img {
+    max-width: 20px;
+}
+
+.who {
+    text-align: center;
+    color: #ffffff;
+    
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.menu {
+    max-width: 620px;
+    max-height: 40px;
+    padding: 30px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    
+    color: white
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    justify-content: end;
+}
+
+main {
+    
+    
+    
+}
+
+.circle {
+    margin:20px auto ;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle img {
+    max-width: 100%;
+    position: absolute;
+    bottom: -50px;
+}
+
+.nome--crp {
+    text-align: center;
+    max-width: 315px;
+    margin: 0 auto;   
+    color: #495968;
+}
+
+.nome--crp {
+   margin-bottom: 20px ;
+}
+
+.conteudo {
+    max-width: 620px;
+    margin: 0 auto;
+    max-height: 100%;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 15px 30px 30px 25px;
+    color: #495968;
+}
+
+.conteudo p {
+    font-size: 30px;
+}
