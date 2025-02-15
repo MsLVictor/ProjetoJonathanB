@@ -107,5 +107,28 @@ main {
 }
 
 .conteudo p {
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.h1-remoto {
+    text-align: center;
+    padding: 15px 15px;
+    color: #30503a;
+}
+
+.galery {
+    margin: 25px 25px;
+display: flex;
+justify-content: space-between;
+opacity: 0;
+/*transition: opacity 1s ease-in-out;*/
+transform: translateY(100px); /* Começa abaixo da posição normal */
+transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Transição suave */
+}
+
+
+
+
+.img-job {
+    max-width: 30%;
 }
