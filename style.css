@@ -10,15 +10,18 @@ body {
     
 }
 
-header {
+.topopag {
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
     background-color: #FFFFFF;
     color: #495968;
-    justify-content: space-around;
-    padding: 10px 25px;
+    justify-content: center;
+}
+
+.imgheader {
+    margin: 10px 10px;
 }
 
 .right {
